@@ -625,6 +625,9 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
+.hello {
+  font-size: 0.75em;
+}
 .fr-text b,
 .fr-text strong {
   font-weight: bold;
