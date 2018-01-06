@@ -5,6 +5,13 @@
   text-align: center;
 }
 
+.tidbits-white {
+  font-family: PT Sans Caption;
+  font-size: 5em;
+  color:white;
+  text-align: center;
+}
+
 .fr_info-heading-3 {
   width:auto;
   font-family:PT Sans Caption;

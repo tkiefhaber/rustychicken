@@ -6,6 +6,8 @@ Rustychicken::Application.routes.draw do
   root 'home#index'
   resource :home
   resource :thanksgiving
+  get '/wifi', to: 'wi_fi#index'
+  # get '/wifi', 'wi_fi#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -41,7 +43,7 @@ Rustychicken::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
